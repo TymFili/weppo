@@ -8,7 +8,6 @@ const groupBy = keySelector => arr => {
   });
 };
 
-// 3. Zmodyfikowany sort
 const sort = keySelector => arr => {
   return [...arr].sort((a, b) => {
     const ka = keySelector(a);
